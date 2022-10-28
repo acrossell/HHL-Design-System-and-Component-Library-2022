@@ -16,6 +16,7 @@ export const iconButton_inactive_container_paddingVertical = tokenData.buttons.i
 export const iconButton_inactive_container_paddingHorizontal = tokenData.buttons.iconButton.inactive.container.value.horizontalPadding;
 export const iconButton_inactive_container_fill = tokenData.buttons.iconButton.inactive.container.value.fill;
 export const iconButton_inactive_container_borderColor = tokenData.buttons.iconButton.inactive.container.value.border;
+export const iconButton_inactive_container_borderWidth = tokenData.buttons.iconButton.inactive.container.value.borderWidth;
 export const iconButton_inactive_container_borderRadius_topLeft = tokenData.buttons.iconButton.inactive.container.value.borderRadiusTopLeft;
 export const iconButton_inactive_container_borderRadius_topRight = tokenData.buttons.iconButton.inactive.container.value.borderRadiusTopRight;
 export const iconButton_inactive_container_borderRadius_bottomRight = tokenData.buttons.iconButton.inactive.container.value.borderRadiusBottomRight;
@@ -32,6 +33,7 @@ const Button = styled.button`
     ${iconButton_inactive_container_paddingVertical} 
     ${iconButton_inactive_container_paddingHorizontal};
   background-color: ${iconButton_inactive_container_fill};
+  border-width: ${iconButton_inactive_container_borderWidth};
   border-color: ${iconButton_inactive_container_borderColor};
   border-radius: 
     ${iconButton_inactive_container_borderRadius_topLeft} 

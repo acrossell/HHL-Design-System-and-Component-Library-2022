@@ -96,7 +96,8 @@ const Subline = styled.h3`
 const TabsWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start
+  align-items: flex-start;
+  gap: 0 16px;
 `;
 
 // Define Component //

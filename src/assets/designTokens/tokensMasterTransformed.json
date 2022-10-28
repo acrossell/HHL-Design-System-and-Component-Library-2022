@@ -354,6 +354,12 @@
         "value": "#CA0906",
         "type": "color"
       }
+    },
+    "alpha": {
+      "transparent": {
+        "value": "#00000000",
+        "type": "color"
+      }
     }
   },
   "opacity": {
@@ -1691,8 +1697,8 @@
           "value": {
             "verticalPadding": "16px",
             "horizontalPadding": "16px",
-            "fill": "",
-            "borderWidth": "1px",
+            "fill": "#00000000",
+            "borderWidth": "0px",
             "borderRadiusTopLeft": "4px",
             "borderRadiusTopRight": "4px",
             "borderRadiusBottomRight": "4px",
@@ -2052,7 +2058,7 @@
           "value": {
             "verticalPadding": "16px",
             "horizontalPadding": "16px",
-            "fill": "#10273C",
+            "fill": "#00000000",
             "borderWidth": "1px",
             "borderRadiusTopLeft": "4px",
             "borderRadiusTopRight": "4px",

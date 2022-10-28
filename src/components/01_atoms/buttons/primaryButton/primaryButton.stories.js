@@ -7,7 +7,7 @@ export default {
   * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
   * to learn how to generate automatic titles
   */
-  title: 'PrimaryButton',
+  title: 'Atoms/Buttons/PrimaryButton',
   component: PrimaryButton
 };
 
