@@ -8,6 +8,7 @@ import CardBlogArticle from "../../02_molecules/cardBlogArticle/cardBlogArticle.
 import CardTransaction from "../../02_molecules/cardTransaction/cardTransaction.js";
 import CardNotification from "../../02_molecules/cardNotification/cardNotification.js";
 import CardDonut from "../../02_molecules/cardDonut/cardDonut.js";
+import DashboardHeader from '../../02_molecules/dashboardHeader/dashboardHeader.js';
 import "../../../assets/css/flexboxgrid.css"
 // Import style token json data
 //----------------//
@@ -33,7 +34,7 @@ function DashBoard() {
   return (
     <div className="body">
         <GlobalNavigation/>
-        
+        <DashboardHeader/>
         <section className="section" style={sectionStyleBlue}>
             <div className="row">
                 <div className="col-xs-12 col-md-6">

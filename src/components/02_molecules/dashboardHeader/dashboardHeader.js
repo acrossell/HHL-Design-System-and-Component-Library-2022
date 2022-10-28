@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import PrimaryButton from "../../01_atoms/buttons/primaryButton/primaryButton.js"
+import IconButton from "../../01_atoms/buttons/iconButton/iconButton.js"
 
 // Import style token json data
 //----------------//
@@ -93,6 +93,12 @@ const Subline = styled.h3`
   color: ${PcsDashboard_subline_color};
 `;
 
+const TabsWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start
+`;
+
 // Define Component //
 // -----------------//
 function DashboardHeader() {
@@ -102,24 +108,12 @@ function DashboardHeader() {
             <Title>Good afternoon, Alexander</Title>
             <Subline>Welcome to your Aviva Pension Consolidation Dashboard</Subline>
           </div>
-          <div className="tabsWrapper">
-          <PrimaryButton
-            hasIcon="none"
-            buttonCopy="this is a button with no icon"
-          ></PrimaryButton>;
-          <PrimaryButton
-            hasIcon="none"
-            buttonCopy="this is a button with no icon"
-          ></PrimaryButton>;
-          <PrimaryButton
-            hasIcon="none"
-            buttonCopy="this is a button with no icon"
-          ></PrimaryButton>;
-          <PrimaryButton
-            hasIcon="none"
-            buttonCopy="this is a button with no icon"
-          ></PrimaryButton>;
-          </div>
+          <TabsWrapper className="tabsWrapper">
+            <IconButton></IconButton>
+            <IconButton></IconButton>
+            <IconButton></IconButton>
+            <IconButton></IconButton>
+          </TabsWrapper>
       </Container>  
     
   );

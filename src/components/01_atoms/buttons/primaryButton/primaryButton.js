@@ -6,7 +6,7 @@ import tokenData from '../../../../assets/designTokens/tokensMasterTransformed.j
 // Define Tokens //
 // ---------------//
 
-//Default
+//Container
 export const primaryButton_inactive_container_paddingVertical = tokenData.buttons.primaryButton.inactive.container.value.verticalPadding;
 export const primaryButton_inactive_container_paddingHorizontal = tokenData.buttons.primaryButton.inactive.container.value.horizontalPadding;
 export const primaryButton_inactive_container_fill = tokenData.buttons.primaryButton.inactive.container.value.fill;
@@ -18,6 +18,7 @@ export const primaryButton_inactive_container_borderRadius_bottomLeft = tokenDat
 export const primaryButton_inactive_container_boxShadow =  tokenData.buttons.primaryButton.inactive.container.value.boxShadow;
 export const primaryButton_inactive_container_opacity = tokenData.buttons.primaryButton.inactive.container.value.opacity;
 
+//Text
 export const primaryButton_inactive_text_fontFamily = tokenData.buttons.primaryButton.inactive.text.value.typography.fontFamily;
 export const primaryButton_inactive_text_fontWeight = tokenData.buttons.primaryButton.inactive.text.value.typography.fontWeight;
 export const primaryButton_inactive_text_fontSize = tokenData.buttons.primaryButton.inactive.text.value.typography.fontSize;

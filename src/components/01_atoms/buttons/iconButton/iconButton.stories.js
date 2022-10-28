@@ -1,10 +1,18 @@
-// import React from "react";
-// import { storiesOf } from "@storybook/react";
+import React from 'react';
 
-// import IconButton from "./iconButton.js";
+import IconButton from "./iconButton.js";
 
-// storiesOf("Atoms/Buttons/Icon Button", module).add("Default", () => (
-//   <IconButton
-//     iconSrc="https://place-hold.it/26"
-//   ></IconButton>
-// ));
+export default {
+  /* 👇 The title prop is optional.
+  * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
+  * to learn how to generate automatic titles
+  */
+  title: 'IconButton',
+  component: IconButton
+};
+
+export const TestButton= () =>  
+  <IconButton
+    hasIcon="none"
+    buttonCopy="this is a button with no icon"
+  ></IconButton>;
