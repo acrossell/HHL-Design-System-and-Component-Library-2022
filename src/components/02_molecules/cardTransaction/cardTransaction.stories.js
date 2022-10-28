@@ -1,17 +1,17 @@
-// import React from 'react';
+import React from 'react';
 
-// import CardBlogArticle from "./cardBlogArticle.js";
+import CardTransaction from "./cardTransaction.js";
 
-// export default {
-//   /* 👇 The title prop is optional.
-//   * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
-//   * to learn how to generate automatic titles
-//   */
-//   title: 'cardBlogArticle',
-//   component: CardBlogArticle
-// };
+export default {
+  /* 👇 The title prop is optional.
+  * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
+  * to learn how to generate automatic titles
+  */
+  title: 'Cards/CardTransaction',
+  component: CardTransaction
+};
 
-// export const BlogArticleCard= () =>  
-//   <CardBlogArticle
+export const Default= () =>  
+  <CardTransaction
 
-//   ></CardBlogArticle>;
+  ></CardTransaction>;

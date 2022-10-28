@@ -74,7 +74,7 @@ export const cardChart_container_borderRadius_topLeft = tokenData.cards.chartCar
 export const cardChart_container_borderRadius_topRight = tokenData.cards.chartCard.container.value.borderRadius;
 export const cardChart_container_borderRadius_bottomRight = tokenData.cards.chartCard.container.value.borderRadius;
 export const cardChart_container_borderRadius_bottomLeft = tokenData.cards.chartCard.container.value.borderRadius;
-export const cardChart_container_boxShadow =  tokenData.cards.chartCard.container.value.boxShadow;
+export const cardChart_container_boxShadow =  `${tokenData.cards.notification.container.value.boxShadow.y} ${tokenData.cards.notification.container.value.boxShadow.x} ${tokenData.cards.notification.container.value.boxShadow.blur} ${tokenData.cards.notification.container.value.boxShadow.spread} ${tokenData.cards.notification.container.value.boxShadow.color}`;
 export const cardChart_container_opacity = tokenData.cards.chartCard.container.value.opacity;
 
 //Title
@@ -256,9 +256,9 @@ const ReadoutLabel = styled.h5`
 
 // Define Component //
 // -----------------//
-function CardData() {
+function CardDonut() {
   return (
-      <Container className="container"> 
+      <Container className=""> 
           <CardTitle className="title">Card Title</CardTitle> 
           <ChartWrapper className="chartWrapper">
           <Bar options={options} data={data} />
@@ -280,9 +280,9 @@ function CardData() {
   );
 }
 
-export default CardData;
+export default CardDonut;
 
-CardData.propTypes = {
+CardDonut.propTypes = {
   hasIcon: PropTypes.string,
   buttonCopy: PropTypes.string
 };
